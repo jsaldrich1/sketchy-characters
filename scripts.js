@@ -184,5 +184,5 @@ function randomRandomize(){
     hairRandomize();
     headRandomize();
     mouthRandomize();
-    NoseRandomize();
+    noseRandomize();
 }
