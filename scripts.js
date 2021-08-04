@@ -18,32 +18,32 @@ function getNumber(min, max){
 
 function bodyRandomize(){
     var bodyNumber = getNumber(1, bodyMax);
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + bodyNumber + ".PNG?raw=true";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + bodyNumber + ".PNG";
 }
 
 function eyesRandomize(){
     var eyesNumber = getNumber(1, eyesMax);
-    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + eyesNumber + ".PNG?raw=true";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + eyesNumber + ".PNG";
 }
 
 function hairRandomize(){
     var hairNumber = getNumber(1, hairMax);
-    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + hairNumber + ".PNG?raw=true";
+    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + hairNumber + ".PNG";
 }
 
 function headRandomize(){
     var headNumber = getNumber(1, headMax);
-    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + headNumber + ".PNG?raw=true";
+    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + headNumber + ".PNG";
 }
 
 function mouthRandomize(){
     var mouthNumber = getNumber(1, mouthMax);
-    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + mouthNumber + ".PNG?raw=true";
+    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + mouthNumber + ".PNG";
 }
 
 function noseRandomize(){
     var noseNumber = getNumber(1, noseMax);
-    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Nose/nose" + noseNumber + ".PNG?raw=true";
+    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Nose/nose" + noseNumber + ".PNG";
 }
 
 function bodyDown(num){
@@ -54,7 +54,7 @@ function bodyDown(num){
         num--;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG?raw=true";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG";
 }
 
 function bodyUp(num){
@@ -65,7 +65,7 @@ function bodyUp(num){
         num++;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG?raw=true";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG";
 }
 
 function eyesDown(num){
@@ -76,7 +76,7 @@ function eyesDown(num){
         num--;
         eyesNumber = num;
     }
-    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG?raw=true";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
 }
 
 function eyesUp(num){
@@ -87,7 +87,7 @@ function eyesUp(num){
         num++;
         eyesNumber = num;
     }
-    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG?raw=true";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
 }
 
 function hairDown(num){
@@ -98,7 +98,7 @@ function hairDown(num){
         num--;
         hairNumber = num;
     }
-    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + num + ".PNG?raw=true";
+    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + num + ".PNG";
 }
 
 function hairUp(num){
@@ -109,7 +109,7 @@ function hairUp(num){
         num++;
         hairNumber = num;
     }
-    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + num + ".PNG?raw=true";
+    document.getElementById("sketchHair").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Hair/hair" + num + ".PNG";
 }
 
 function headDown(num){
@@ -120,7 +120,7 @@ function headDown(num){
         num--;
         headNumber = num;
     }
-    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + num + ".PNG?raw=true";
+    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + num + ".PNG";
 }
 
 function headUp(num){
@@ -131,7 +131,7 @@ function headUp(num){
         num++;
         headNumber = num;
     }
-    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + num + ".PNG?raw=true";
+    document.getElementById("sketchHead").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Head/head" + num + ".PNG";
 }
 
 function mouthDown(num){
@@ -142,7 +142,7 @@ function mouthDown(num){
         num--;
         mouthNumber = num;
     }
-    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + num + ".PNG?raw=true";
+    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + num + ".PNG";
 }
 
 function mouthUp(num){
@@ -153,7 +153,7 @@ function mouthUp(num){
         num++;
         mouthNumber = num;
     }
-    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + num + ".PNG?raw=true";
+    document.getElementById("sketchMouth").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Mouth/mouth" + num + ".PNG";
 }
 
 function noseDown(num){
@@ -164,7 +164,7 @@ function noseDown(num){
         num--;
         noseNumber = num;
     }
-    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Nose/nose" + num + ".PNG?raw=true";
+    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Nose/nose" + num + ".PNG";
 }
 
 function noseUp(num){
@@ -175,7 +175,7 @@ function noseUp(num){
         num++;
         noseNumber = num;
     }
-    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG?raw=true";
+    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
 }
 
 function randomRandomize(){
