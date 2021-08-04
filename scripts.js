@@ -18,12 +18,12 @@ function getNumber(min, max){
 
 function bodyRandomize(){
     var bodyNumber = getNumber(1, bodyMax);
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + bodyNumber + ".PNG";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + bodyNumber + ".PNG";
 }
 
 function eyesRandomize(){
     var eyesNumber = getNumber(1, eyesMax);
-    document.getElementById("sketchEyes").src="/sketches/Eyes/eyes" + eyesNumber + ".png";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + eyesNumber + ".PNG";
 }
 
 function hairRandomize(){
@@ -54,7 +54,7 @@ function bodyDown(num){
         num--;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + num + ".PNG";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG";
 }
 
 function bodyUp(num){
@@ -65,7 +65,7 @@ function bodyUp(num){
         num++;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + num + ".PNG";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/body" + num + ".PNG";
 }
 
 function eyesDown(num){
@@ -76,7 +76,7 @@ function eyesDown(num){
         num--;
         eyesNumber = num;
     }
-    document.getElementById("sketchEyes").src="/sketches/Eyes/eyes" + num + ".png";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
 }
 
 function eyesUp(num){
@@ -87,7 +87,7 @@ function eyesUp(num){
         num++;
         eyesNumber = num;
     }
-    document.getElementById("sketchEyes").src="/sketches/Eyes/eyes" + num + ".png";
+    document.getElementById("sketchEyes").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
 }
 
 function hairDown(num){
