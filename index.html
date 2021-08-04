@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Sketchy Character Creator</title>
+  <meta name="description" content="A simple character creator for Tabletop games, RPGs, or just for fun.">
+  <meta name="author" content="Jeremy Aldrich">
+
+  <meta property="og:title" content="A Sketchy Character Creator">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jeremy-aldrich.com/">
+  <meta property="og:description" content="Another small, silly side project.">
+  <meta property="og:image" content="image.png">
+
+  <!-- <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <script src="scripts.js"></script>
+  <main class="mainContent">
+    <header>
+      <h1>Sketchy Characters</h1>
+    </header>
+    <section class="sketchContainer">
+      <section class="sketchMaterial">
+        <section class="sketchMaterial">
+          <img id="sketchBody" src="/sketches/Body/body1.png">
+        </section>
+        <section class="sketchMaterial">
+          <img id="sketchEyes" src="/sketches/Eyes/eyes1.png">
+        </section>
+        <section class="sketchMaterial">
+          <img id="sketchHead" src="/sketches/Head/head1.png">
+        </section>
+        <section class="sketchMaterial">
+          <img id="sketchMouth" src="/sketches/Mouth/mouth1.png">
+        </section>
+        <section class="sketchMaterial">
+          <img id="sketchNose" src="/sketches/Nose/nose1.png">
+        </section>
+        <section class="sketchMaterial">
+          <img id="sketchHair" src="/sketches/Hair/hair1.png">
+        </section>
+      </section>
+      <section class="sketchBook">
+      </section>      
+    </section>
+    <section class="actionsContainer">
+      <button onclick='hairDown(hairNumber)'>◀</button>
+        <p>Hair</p>
+      <button onclick='hairUp(hairNumber)'>▶</button>
+      <button onclick='eyesDown(eyesNumber)'>◀</button>
+        <p>Eyes</p>
+      <button onclick='eyesUp(eyesNumber)'>▶</button>
+      <button onclick='noseDown(noseNumber)'>◀</button>
+        <p>Nose</p>
+      <button onclick='noseUp(noseNumber)'>▶</button>
+      <button onclick='mouthDown(mouthNumber)'>◀</button>
+        <p>Mouth</p>
+      <button onclick='mouthUp(mouthNumber)'>▶</button>
+      <button onclick='headDown(headNumber)'>◀</button>
+        <p>Head</p>
+      <button onclick='headUp(headNumber)'>▶</button>
+      <button onclick='bodyDown(bodyNumber)'>◀</button>
+        <p>Body</p>
+      <button onclick='bodyUp(bodyNumber)'>▶</button>
+      <div></div>
+      <button onclick='randomRandomize()' class="randomButton">Random</button>
+      <div></div>
+    </section>
+  </main>
+</body>
+<footer>
+  <p>A little web app to quickly generate character sketches for table top games, RPGs, or just for fun.</p>
+  <p>Created by <a href="https://jeremy-aldrich.com" target="_blank">Jeremy Aldrich.</a> All rights reserved ©2021</p>
+</footer>
+</html>
