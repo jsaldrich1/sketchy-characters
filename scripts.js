@@ -18,7 +18,7 @@ function getNumber(min, max){
 
 function bodyRandomize(){
     var bodyNumber = getNumber(1, bodyMax);
-    document.getElementById("sketchBody").src="/sketches/Body/body" + bodyNumber + ".png";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + bodyNumber + ".PNG";
 }
 
 function eyesRandomize(){
@@ -54,7 +54,7 @@ function bodyDown(num){
         num--;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="/sketches/Body/body" + num + ".png";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + num + ".PNG";
 }
 
 function bodyUp(num){
@@ -65,7 +65,7 @@ function bodyUp(num){
         num++;
         bodyNumber = num;
     }
-    document.getElementById("sketchBody").src="/sketches/Body/body" + num + ".png";
+    document.getElementById("sketchBody").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Body/" + num + ".PNG";
 }
 
 function eyesDown(num){
