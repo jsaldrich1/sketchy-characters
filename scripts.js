@@ -175,7 +175,7 @@ function noseUp(num){
         num++;
         noseNumber = num;
     }
-    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Eyes/eyes" + num + ".PNG";
+    document.getElementById("sketchNose").src="https://raw.githubusercontent.com/jsaldrich1/sketchy-characters/main/sketches/Nose/nose" + num + ".PNG";
 }
 
 function randomRandomize(){
