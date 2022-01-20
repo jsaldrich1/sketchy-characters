@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gochi+Hand&family=Roboto&display=swap');
 :root {
-    --light: #ddd2b9;
-    /* --light: #dfca9e; */
-    --medium: #153243;
-    --dark: #153243;
+    --light: #e2dac0;
+    --medium: #6C5A49;
+    --dark: #271F30;
     --white: #FFFFFF;
 }
 
@@ -26,7 +23,7 @@ header {
     font-size: 2em;
     grid-column: 2 / 4;
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Amatic SC', serif;
     color: var(--dark);
 }
 
@@ -74,7 +71,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Gochi Hand', cursive;
     font-size: 18pt;
     text-align: center;
 }
@@ -105,7 +102,7 @@ button:active {
 }
 
 .randomButton {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Gochi Hand', cursive;
     width: 100%;
     padding-left: 10px;
 }
