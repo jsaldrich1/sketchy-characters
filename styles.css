@@ -207,3 +207,9 @@ footer {
         padding-top: 50px;
     }
 }
+
+@media print {
+    .actionsContainer {
+        display: none !important;
+    }
+}
